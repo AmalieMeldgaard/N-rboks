@@ -1,0 +1,85 @@
+.menu {
+  text-align: right;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.menu__link {
+  display: block;
+  padding: 0.5rem 2rem;
+  color: #0e0e0e;
+  text-decoration: none;
+}
+
+.menu__link:hover,
+.menu__link.--active {
+  color: #ad1f1f;
+  font-weight: bold;
+  top: 0;
+  left: 0;
+}
+
+.menu__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100vw;
+  padding: 1rem 2rem;
+  background-color: #ebebeb;
+  margin: 0 0 1rem 0;
+  min-width: 300px;
+  justify-items: center;
+}
+.module {
+  color: white;
+}
+.menu__item {
+  display: block;
+}
+
+.font {
+  padding-top: 40px;
+}
+.color__PrimaryColor {
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 20px;
+  background-color: #12a0d6;
+}
+
+.color__TextColor {
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 20px;
+  background-color: #000000;
+}
+
+.color__ReminderColor {
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 20px;
+  background-color: #ea5b0c;
+}
+
+.color__BackgroundColor {
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 20px;
+  background-color: #ffffff;
+  color: black;
+}
+
+.modules {
+  margin-top: 80px;
+}
+.primary__font {
+  margin: 20px;
+  border: 1px solid grey;
+  padding: 10px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.secondary__font {
+  margin: 20px;
+  border: 1px solid grey;
+  padding: 10px;
+}
