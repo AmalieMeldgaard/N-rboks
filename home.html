@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <title>Document</title>
+  </head>
+  <body class="home__body">
+    <header class="home__header">
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;</span
+      >
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <img class="home__icon" src="img/package.png" alt="pakkeIcon" />
+        <a href="#">Hent pakker</a>
+        <img class="home__iconGuide" src="img/guideline.png" alt="guideIcon" />
+        <a href="#">Guideline</a>
+        <img class="home__iconReturn" src="img/Return.png" alt="ReturnIcon" />
+        <a href="#">Returnering</a>
+        <img
+          class="home__iconHistoric"
+          src="img/historic.png"
+          alt="HistricIcon"
+        />
+        <a href="#">Historik</a>
+        <img class="home__icon" src="img/phone.png" alt="phoneIcon" />
+        <a href="#">Kundeservice</a>
+      </div>
+
+      <img class="logout" src="img/logout.png" alt="log af" />
+    </header>
+
+    <h1 class="home__title">Hent pakker</h1>
+    <img class="home__mascot" src="img/mascot.png" alt="maskot" />
+    <h2 class="home__text">Pakker</h2>
+    <section class="home__packages">
+      <img class="home__package" src="img/pakke.png" alt="pakke" />
+      <img class="home__package" src="img/pakke.png" alt="pakke" />
+      <img class="home__package" src="img/pakke.png" alt="pakke" />
+    </section>
+    <script src="home.js"></script>
+  </body>
+</html>
