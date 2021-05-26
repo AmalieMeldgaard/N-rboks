@@ -1,0 +1,23 @@
+.historic__body {
+  background-color: #f4f4f4;
+  font-family: "Exo 2", sans-serif;
+}
+
+.historic__box {
+  border-radius: 30px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.historic__box .historic__number {
+  grid-column-start: 1;
+  margin: 0;
+}
+.historic__box .historic__text {
+  margin: 0;
+}
+.historic__box .historic__expiration {
+  margin: 0;
+}

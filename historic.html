@@ -3,18 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="historic.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
-  <body>
+  <body class="historic__body">
+    <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+      >&#9776;</span
+    >
+    <section id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <img class="home__icon" src="img/package.png" alt="pakkeIcon" />
+      <a href="#">Hent pakker</a>
+      <img class="home__iconGuide" src="img/guideline.png" alt="guideIcon" />
+      <a href="#">Guideline</a>
+      <img class="home__iconReturn" src="img/Return.png" alt="ReturnIcon" />
+      <a href="#">Returnering</a>
+      <img
+        class="home__iconHistoric"
+        src="img/historic.png"
+        alt="HistricIcon"
+      />
+      <a href="#">Historik</a>
+      <img class="home__icon" src="img/phone.png" alt="phoneIcon" />
+      <a href="#">Kundeservice</a>
+    </section>
     <h1 class="historic__title">Mine afhentninger</h1>
 
     <article class="historic__box">
       <p class="historic__text">SwipeBox har leveret din pakke</p>
-      <h3 class="historic__number">pakkenr: Sb13207224779</h3>
-      <h2 class="historic__expiration">udløber om om 14 dage</h2>
+      <h3 class="historic__number">Pakkenr: Sb13207224779</h3>
       <img class="historic__box" src="img/packageBtn.png" alt="btn" />
-      <img class="newBtn" src="img/new.png" alt="newbtn" />
+      <h2 class="historic__expiration">Udløber om om 14 dage</h2>
     </article>
     <article class="historic__box">
       <p class="historic__text">Pakken afleveret af swipeBox</p>
@@ -31,5 +56,6 @@
       <h3 class="historic__number">pakkenr: Sb16207224239</h3>
       <h3>Afhentet den: 04-07-2020</h3>
     </article>
+    <script src="menu.js"></script>
   </body>
 </html>
