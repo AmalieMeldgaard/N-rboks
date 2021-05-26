@@ -64,6 +64,7 @@
 }
 .arrived__body .open__switch input:checked + .slider {
   background-color: #12a0d6;
+  color: #12a0d6;
 }
 .arrived__body .open__switch input:checked + .slider:before {
   transform: translateX(230px);
