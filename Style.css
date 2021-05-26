@@ -1,0 +1,429 @@
+.home__body .home__menu {
+  width: 30px;
+}
+.home__body .home__header {
+  display: flex;
+  justify-content: space-between;
+}
+.home__body .logout {
+  width: 29px;
+  height: 28px;
+  margin-top: 10px;
+}
+.home__body .home__title {
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+}
+.home__body .home__mascot {
+  display: block;
+  margin: auto;
+}
+.home__body .home__text {
+  font-size: 25px;
+  margin-left: 30px;
+  font-family: "Exo 2", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #12a0d6;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  width: 0;
+}
+
+.sidenav a {
+  padding: 8px 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  font-size: 36px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.home__package {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  width: 310px;
+}
+
+.home__icon {
+  margin-top: 20px;
+  margin-left: 18px;
+}
+
+.home__iconGuide {
+  margin-left: 25px;
+}
+
+.home__iconReturn {
+  margin-top: 20px;
+  margin-left: 13px;
+}
+
+.home__iconHistoric {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.home__body .home__menu {
+  width: 30px;
+}
+.home__body .home__header {
+  display: flex;
+  justify-content: space-between;
+}
+.home__body .logout {
+  width: 29px;
+  height: 28px;
+  margin-top: 10px;
+}
+.home__body .home__title {
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+}
+.home__body .home__mascot {
+  display: block;
+  margin: auto;
+}
+.home__body .home__text {
+  font-size: 25px;
+  margin-left: 30px;
+  font-family: "Exo 2", sans-serif;
+}
+.home__body .home__package {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  width: 310px;
+}
+.home__body .sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #12a0d6;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.home__body .sidenav a {
+  padding: 8px 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+.home__body .sidenav a:hover {
+  color: #f1f1f1;
+}
+.home__body .sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  font-size: 36px;
+}
+@media screen and (max-height: 450px) {
+  .home__body .sidenav {
+    padding-top: 15px;
+  }
+  .home__body .sidenav a {
+    font-size: 18px;
+  }
+}
+.home__body .home__icon {
+  margin-top: 20px;
+  margin-left: 18px;
+}
+.home__body .home__iconGuide {
+  margin-left: 25px;
+}
+.home__body .home__iconReturn {
+  margin-top: 20px;
+  margin-left: 13px;
+}
+.home__body .home__iconHistoric {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.arrived__body {
+  font-family: "Exo 2", sans-serif;
+  background-image: url(img/background.png);
+}
+.arrived__body .arrived__title {
+  margin-top: 60px;
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+.arrived__body .arrived__locationImg {
+  display: block;
+  margin: auto;
+  margin-top: 150px;
+}
+.arrived__body .arrived__text {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 50px;
+  margin-bottom: 108px;
+}
+.arrived__body .open__switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-left: 35px;
+  /*input:focus + .slider {
+    box-shadow: 0 0 1px #12a0d6;
+  }
+  */
+  /* Rounded sliders */
+}
+.arrived__body .open__switch .open__switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.arrived__body .open__switch .arrived__box {
+  margin-left: 31px;
+}
+.arrived__body .open__switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1px;
+  background-color: #ccc;
+  transition: 0.4s;
+  width: 210px;
+  height: 45px;
+}
+.arrived__body .open__switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 47px;
+  width: 45px;
+  left: 6px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+.arrived__body .open__switch input:checked + .slider {
+  background-color: #12a0d6;
+  color: #12a0d6;
+}
+.arrived__body .open__switch input:checked + .slider:before {
+  transform: translateX(230px);
+}
+.arrived__body .open__switch .slider.round {
+  border-radius: 34px;
+  padding-left: 80px;
+  padding-top: 10px;
+  font-size: 26px;
+  color: white;
+}
+.arrived__body .open__switch .slider.round:before {
+  border-radius: 50%;
+}
+
+.return__btns {
+  display: flex;
+}
+.return__btns .return__btn {
+  border-radius: 11px;
+  border: none;
+  background-color: #12a0d6;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.return__btns .return__Nobtn {
+  border-radius: 11px;
+  background-color: #ffffff;
+  width: 50px;
+  height: 50px;
+}
+.return__btns .return__btnImg {
+  margin-top: -12px;
+}
+
+.return__returnering {
+  display: flex;
+  justify-content: space-between;
+}
+
+.return__parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.return__parent .return__package {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+.return__parent .return__scanner {
+  position: absolute;
+  top: 140px;
+  left: 84px;
+}
+
+.returnNo__text {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.returnNo__input {
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: 70px;
+  border-radius: 15px;
+  font-size: 40px;
+}
+
+.returnNo__confirm {
+  background-color: #12a0d6;
+  border-radius: 28px;
+  width: 170px;
+  height: 60px;
+  color: #ffffff;
+  border: none;
+  font-size: 25px;
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #12a0d6;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  font-size: 36px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.return__btns {
+  display: flex;
+}
+.return__btns .return__btn {
+  border-radius: 11px;
+  border: none;
+  background-color: #12a0d6;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.return__btns .return__Nobtn {
+  border-radius: 11px;
+  background-color: #ffffff;
+  width: 50px;
+  height: 50px;
+}
+
+.return__returnering {
+  display: flex;
+  justify-content: space-between;
+}
+
+.return__parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.return__parent .return__package {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+.return__parent .return__scanner {
+  position: absolute;
+  top: 140px;
+  left: 84px;
+}
+
+.return__info {
+  position: absolute;
+  bottom: 0px;
+  right: 11px;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+}
+
+.return__background {
+  width: 274px;
+  height: 140px;
+  margin-left: 93px;
+}
+/*# sourceMappingURL=Style.css.map */
