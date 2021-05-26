@@ -260,7 +260,7 @@
 .return__btns {
   display: flex;
 }
-.return__btns .return__btn {
+.return__btns .returnNo__btn {
   border-radius: 11px;
   border: none;
   background-color: #12a0d6;
@@ -268,13 +268,13 @@
   height: 50px;
   margin-right: 10px;
 }
-.return__btns .return__Nobtn {
+.return__btns .returnNo__Nobtn {
   border-radius: 11px;
   background-color: #ffffff;
   width: 50px;
   height: 50px;
 }
-.return__btns .return__btnImg {
+.return__btns .returnNo__btnImg {
   margin-top: -12px;
 }
 
