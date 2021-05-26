@@ -17,7 +17,40 @@
 }
 .historic__box .historic__text {
   margin: 0;
+  padding-top: 7px;
 }
 .historic__box .historic__expiration {
   margin: 0;
+  color: #ea5b0c;
+  font-size: 17px;
+  margin-top: -10px;
+  padding-bottom: 24px;
+}
+.historic__box .historic__img {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.historic__oldbox {
+  border-radius: 30px;
+  background-color: #ffffff;
+  display: grid;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.historic__oldbox .historic__oldtext {
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.historic__oldbox .historic__oldnumber {
+  margin: 0;
+  padding-bottom: 6px;
+  font-size: 16px;
+}
+.historic__oldbox .historic__delivered {
+  margin: 0;
+  padding-bottom: 12px;
+  font-size: 16px;
 }
