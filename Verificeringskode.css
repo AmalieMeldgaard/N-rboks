@@ -1,0 +1,91 @@
+@charset "UTF-8";
+body {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: "Exo 2", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: hidden;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  margin-top: 75px;
+}
+
+.verificeringskode {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.telefonnummer {
+  margin-left: 14px;
+}
+
+.input {
+  width: 57px;
+  height: 64px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #F4F4F4;
+  border: none;
+  display: flex;
+}
+
+.inputcontainer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: 54px;
+  margin-right: 54px;
+}
+
+.verificeringssection {
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  width: 90%;
+  height: 285px;
+  display: block;
+  margin: auto;
+  margin: 0px auto;
+  padding: 10px;
+}
+
+.tilsendverificeringskodeigen {
+  color: #12A0D6;
+  display: flex;
+  align-items: center;
+}
+.tilsendverificeringskodeigen .pil {
+  height: 20px;
+  margin-left: 10px;
+}
+
+.tilsendkode {
+  color: #12A0D6;
+  display: block;
+  margin: auto;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.fortsæt {
+  background-color: #12A0D6;
+  border-radius: 50px;
+  color: white;
+  font-weight: 300;
+  width: 165px;
+  height: 50px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
