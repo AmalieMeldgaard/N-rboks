@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .home__body .home__menu {
   width: 30px;
 }
@@ -385,4 +386,98 @@
   height: 140px;
   margin-left: 93px;
 }
-/*# sourceMappingURL=Style.css.map */
+
+.registrering {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  width: 100%;
+  height: 926px;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: "Exo 2", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: hidden;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  margin-top: 75px;
+}
+
+.registeringsection {
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  width: 90%;
+  height: 285px;
+  display: block;
+  margin: auto;
+  margin: 0px auto;
+  padding: 10px;
+}
+
+.telefonnummer {
+  color: black;
+  font-size: 20px;
+  padding-top: 30px;
+  margin-left: 5px;
+}
+
+.danmarkpiloglinje {
+  display: flex;
+  align-items: center;
+  padding-top: 45px;
+}
+.danmarkpiloglinje .piltillande {
+  height: 20px;
+  margin-left: 10px;
+}
+
+.linjemellempilogtfl {
+  width: 100%;
+}
+
+.indtasttlf {
+  text-align: right;
+  color: #EBEAEA;
+  margin-right: 5px;
+  border-left: 3px solid #EBEAEA;
+  padding-left: 10px;
+  border-style: hidden;
+  width: 160px;
+  margin-left: auto;
+}
+
+input::placeholder {
+  color: #EBEAEA;
+  font-size: 1.2em;
+}
+
+.linjeundertlf {
+  display: block;
+  margin: auto;
+  width: 320px;
+  padding-top: 11px;
+}
+
+.verificeringskodeSMS {
+  color: #12A0D6;
+  display: block;
+  margin: auto;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.fortsæt {
+  background-color: #12A0D6;
+  border-radius: 50px;
+  color: white;
+  font-weight: 300;
+  width: 165px;
+  height: 50px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
