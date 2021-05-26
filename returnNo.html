@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="return.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="returnNo.css" />
     <title>Document</title>
   </head>
   <body>
@@ -35,23 +39,17 @@
         <button class="return__btn">
           <img src="img/scan.png" alt="icon" />
         </button>
-        <a href="returnNo.html"><button class="return__Nobtn">123</button></a>
+        <button class="return__Nobtn">123</button>
       </section>
     </section>
-    <section class="return__parent">
-      <img class="return__package" src="img/scanPhoto.png" alt="package" />
-      <img class="return__scanner" src="img/scanner.png" alt="scan" />
-    </section>
 
-    <p class="return__info">
-      Husk det kun er Bring der <br />
-      returnerer pakker
-    </p>
-    <img
-      class="return__background"
-      src="img/backgroundCorner.png"
-      alt="backgorund"
-    />
+    <h2 class="returnNo__text">Indtast pakke nr</h2>
+    <label for="">
+      <input class="returnNo__input" type="text" />
+    </label>
+    <footer class="returnNo__footer">
+      <button class="returnNo__confirm">Bekræft</button>
+    </footer>
 
     <script src="menu.js"></script>
   </body>

@@ -81,17 +81,23 @@
   left: 84px;
 }
 
-.return__info {
-  position: absolute;
-  bottom: 0px;
-  right: 11px;
+.returnNo__text {
   text-align: center;
-  color: white;
-  font-size: 22px;
+  margin-top: 200px;
 }
 
-.return__background {
-  width: 274px;
-  height: 140px;
-  margin-left: 93px;
+.returnNo__input {
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: 70px;
+  border-radius: 15px;
+  font-size: 40px;
+}
+
+.returnNo__confirm {
+  background-color: #12a0d6;
+  border-radius: 15px;
+  width: 140px;
+  height: 50px;
 }
