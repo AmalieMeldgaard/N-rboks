@@ -1,0 +1,12 @@
+@charset "UTF-8";
+.husk {
+  font-family: "Exo 2", sans-serif;
+}
+
+.lågelukkes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
