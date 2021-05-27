@@ -456,14 +456,37 @@
 }
 
 .package__infoJs {
-  grid-column: 1 / span 2;
+  grid-column: 1/span 2;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 0.2fr 2fr;
 }
 .package__infoJs .package__guideText {
   grid-column-start: 2;
   margin: 0;
+  padding-bottom: 26px;
 }
+.package__infoJs .package__showway {
+  margin: 0;
+  padding-bottom: 30px;
+  grid-column: span 2;
+}
+.package__infoJs .gudieline {
+  position: absolute;
+  bottom: 1px;
+  left: 17px;
+  margin-bottom: 24px;
+  width: 11px;
+}
+.package__infoJs .locationIcon {
+  position: absolute;
+  top: 117px;
+  left: 73px;
+}
+
+.displayNone {
+  display: none;
+}
+
 .registrering {
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   width: 100%;
@@ -484,7 +507,7 @@
 }
 
 .registeringsection {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-radius: 50px;
   width: 90%;
   height: 285px;
@@ -517,9 +540,9 @@
 
 .indtasttlf {
   text-align: right;
-  color: #ebeaea;
+  color: #EBEAEA;
   margin-right: 5px;
-  border-left: 3px solid #ebeaea;
+  border-left: 3px solid #EBEAEA;
   padding-left: 10px;
   border-style: hidden;
   width: 160px;
@@ -527,7 +550,7 @@
 }
 
 input::placeholder {
-  color: #ebeaea;
+  color: #EBEAEA;
   font-size: 1.2em;
 }
 
@@ -539,7 +562,7 @@ input::placeholder {
 }
 
 .verificeringskodeSMS {
-  color: #12a0d6;
+  color: #12A0D6;
   display: block;
   margin: auto;
   padding-top: 30px;
@@ -547,7 +570,7 @@ input::placeholder {
 }
 
 .fortsæt {
-  background-color: #12a0d6;
+  background-color: #12A0D6;
   border-radius: 50px;
   color: white;
   font-weight: 300;

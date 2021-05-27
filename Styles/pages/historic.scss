@@ -68,9 +68,31 @@
 .package__infoJs {
   grid-column: 1 / span 2;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 0.2fr 2fr;
+
   .package__guideText {
     grid-column-start: 2;
     margin: 0;
+    padding-bottom: 26px;
   }
+  .package__showway {
+    margin: 0;
+    padding-bottom: 30px;
+    grid-column: span 2;
+  }
+  .gudieline {
+    position: absolute;
+    bottom: 1px;
+    left: 17px;
+    margin-bottom: 24px;
+    width: 11px;
+  }
+  .locationIcon {
+    position: absolute;
+    top: 117px;
+    left: 73px;
+  }
+}
+.displayNone {
+  display: none;
 }
