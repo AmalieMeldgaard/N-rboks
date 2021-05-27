@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verificeringkode</title>
-    <link rel="stylesheet" href="Verificeringskode.css">
+    <link rel="stylesheet" href="Style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap" rel="stylesheet">
 </head>
@@ -15,17 +15,18 @@
 <section class="verificeringssection">
     <p class="verificeringskode">Skriv verificeringskoden du har modtaget på</p>
     <p class="telefonnummer">+45 212966XX</p>
+    <section>
+        <article class="inputcontainer">
+            <input type="tel" class="input" placeholder="_" id="first-input" value="" maxlength="1">
+            <input type="tel" class="input" placeholder="_" id="second-input" value="" maxlength="1">
+            <input type="tel" class="input" placeholder="_" id="third-input" maxlength="1">
+            <input type="tel" class="input" placeholder="_" id="fourth-input" maxlength="1">
+        </article>
+    </section>
 </section>
 
-<main class="container"></main>
-<section>
-    <article class="inputcontainer">
-        <input type="tel" class="input" placeholder="_" id="first-input" value="" maxlength="1">
-        <input type="tel" class="input" placeholder="_" id="second-input" value="" maxlength="1">
-        <input type="tel" class="input" placeholder="_" id="third-input" maxlength="1">
-        <input type="tel" class="input" placeholder="_" id="fourth-input" maxlength="1">
-    </article>
-</section>
+
+
 
 <section class="tilsendverificeringskodeigen">
     <p class="tilsendkode">Tilsend verificeringkode igen</p>
@@ -35,7 +36,7 @@
 
 
 <h3 class="fortsæt">Fortsæt</h3>
-/main>
+
 <script>
     var container = document.getElementsByClassName("inputcontainer")[0];
     var last = document.getElementById("fourth-input");
