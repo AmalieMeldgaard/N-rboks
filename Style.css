@@ -387,6 +387,106 @@
   margin-left: 93px;
 }
 
+.historic__body {
+  background-color: #f4f4f4;
+  font-family: "Exo 2", sans-serif;
+}
+
+.historic__title {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.historic__box {
+  border-radius: 30px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  position: relative;
+}
+.historic__box .historic__number {
+  grid-column-start: 1;
+  margin: 0;
+}
+.historic__box .historic__text {
+  margin: 0;
+  padding-top: 7px;
+}
+.historic__box .historic__expiration {
+  margin: 0;
+  color: #ea5b0c;
+  font-size: 17px;
+  margin-top: -10px;
+  padding-bottom: 24px;
+}
+.historic__box .historic__img {
+  margin: 0;
+  padding-left: 20px;
+}
+.historic__box .historic__new {
+  position: absolute;
+  top: -20px;
+  right: -5px;
+}
+
+.historic__oldbox {
+  border-radius: 30px;
+  background-color: #ffffff;
+  display: grid;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.historic__oldbox .historic__oldtext {
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.historic__oldbox .historic__oldnumber {
+  margin: 0;
+  padding-bottom: 6px;
+  font-size: 16px;
+}
+.historic__oldbox .historic__delivered {
+  margin: 0;
+  padding-bottom: 12px;
+  font-size: 16px;
+}
+
+.package__infoJs {
+  grid-column: 1/span 2;
+  display: grid;
+  grid-template-columns: 0.2fr 2fr;
+}
+.package__infoJs .package__guideText {
+  grid-column-start: 2;
+  margin: 0;
+  padding-bottom: 26px;
+}
+.package__infoJs .package__showway {
+  margin: 0;
+  padding-bottom: 30px;
+  grid-column: span 2;
+}
+.package__infoJs .gudieline {
+  position: absolute;
+  bottom: 1px;
+  left: 17px;
+  margin-bottom: 24px;
+  width: 11px;
+}
+.package__infoJs .locationIcon {
+  position: absolute;
+  top: 117px;
+  left: 73px;
+}
+
+.displayNone {
+  display: none;
+}
+
 .registrering {
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   width: 100%;
@@ -481,3 +581,4 @@ input::placeholder {
   margin: auto;
   padding-top: 20px;
 }
+/*# sourceMappingURL=Style.css.map */
