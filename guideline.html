@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="guideline.css" />
+    <link rel="stylesheet" href="Style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap"
       rel="stylesheet"
@@ -11,39 +11,71 @@
     <title>Document</title>
   </head>
   <body class="guide__body">
+    <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+      >&#9776;</span
+    >
+    <section id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <img class="home__icon" src="img/package.png" alt="pakkeIcon" />
+      <a href="home.html">Hent pakker</a>
+      <img class="home__iconGuide" src="img/guideline.png" alt="guideIcon" />
+      <a href="guideline.html">Guideline</a>
+      <img class="home__iconReturn" src="img/Return.png" alt="ReturnIcon" />
+      <a href="return.html">Returnering</a>
+      <img
+        class="home__iconHistoric"
+        src="img/historic.png"
+        alt="HistricIcon"
+      />
+      <a href="historic.html">Historik</a>
+      <img class="home__icon" src="img/phone.png" alt="phoneIcon" />
+      <a href="#">Kundeservice</a>
+    </section>
     <section class="content1 guidebox">
       <img class="guide__Icon" src="img/bluetooth.png" alt="bluetooth" />
-      <h1 class="guide__title">Sådan gør du</h1>
-      <p class="guide__text">
-        Husk at bluetooth skal være slået til. Da den eller ikke vil kunne finde
-        pakkeboksen.
-      </p>
+      <section class="guide__info">
+        <h1 class="guide__title">Sådan gør du</h1>
+        <p class="guide__text">
+          Husk at bluetooth skal være slået til. Da den eller ikke vil kunne
+          finde pakkeboksen.
+        </p>
+      </section>
     </section>
     <section class="content2 hidden guidebox">
       <img class="guide__Icon" src="img/message.png" alt="bluetooth" />
-      <h1 class="guide__title">Sådan gør du</h1>
-      <p class="guide__text">
-        Husk at bluetooth skal være slået til. Da den eller ikke vil kunne finde
-        pakkeboksen.
-      </p>
+      <section class="guide__info">
+        <h1 class="guide__title">Sådan gør du</h1>
+        <p class="guide__text">
+          Du vil få en besked år du har en pakke, her efter skal du gå hen til
+          pakkeboksen hvor den automatisk vil finde dig.
+        </p>
+      </section>
     </section>
 
     <section class="content3 hidden guidebox">
       <img class="guide__Icon" src="img/sound.png" alt="bluetooth" />
-      <h1 class="guide__title">Sådan gør du</h1>
-      <p class="guide__text">
-        Husk at bluetooth skal være slået til. Da den eller ikke vil kunne finde
-        pakkeboksen.
-      </p>
+      <section class="guide__info">
+        <h1 class="guide__title">Sådan gør du</h1>
+        <p class="guide__text">
+          Når du nærmer dig boksen, kommer der lyd fra din telefon. Husk at stå
+          tæt nok på boksen ellers kan der komme problemer.
+        </p>
+      </section>
     </section>
 
-    <section class="content 4 hidden guidebox">
-      <img class="guide__Icon" src="img/bluetooth.png" alt="bluetooth" />
-      <h1 class="guide__title">Sådan gør du</h1>
-      <p class="guide1__text">
-        Husk at bluetooth skal være slået til. Da den eller ikke vil kunne finde
-        pakkeboksen.
-      </p>
+    <section class="content4 hidden guidebox">
+      <img class="guide__Icon" src="img/swipeIcon.png" alt="bluetooth" />
+      <section class="guide__info">
+        <h1 class="guide__title">Sådan gør du</h1>
+        <p class="guide__text">
+          Swipe og lågen åbner, her efter kan du tage din pakke og nyde resten
+          af dagen.
+        </p>
+      </section>
+
+      <a href="home.html"><button class="guide__btn">kom i gang</button></a>
     </section>
 
     <input
@@ -56,5 +88,6 @@
     />
 
     <script src="guideline.js"></script>
+    <script src="menu.js"></script>
   </body>
 </html>
