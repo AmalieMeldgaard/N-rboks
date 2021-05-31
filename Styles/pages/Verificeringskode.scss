@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-body {
+.verificering_body {
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   width: 100%;
   min-height: 100vh;
@@ -10,19 +9,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   overflow-y: hidden;
-=======
-.verificering_body{
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-width: 100%;
-min-height: 100vh;
-background-repeat: no-repeat;
-margin: 0;
-font-family: 'Exo 2', sans-serif;
-display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    overflow-y: hidden;
->>>>>>> Stashed changes
 }
 
 .logo {

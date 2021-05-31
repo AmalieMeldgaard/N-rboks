@@ -857,3 +857,81 @@ input[type=range]::-ms-fill-upper {
 input[type=range]:focus::-ms-fill-upper {
   background: #ffffff;
 }
+
+.husk {
+  font-family: "Exo 2", sans-serif;
+}
+
+video {
+  margin-top: 30px;
+}
+
+.lågelukkes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.open__switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-left: 35px;
+  /*input:focus + .slider {
+    box-shadow: 0 0 1px #12a0d6;
+  }
+  */
+  /* Rounded sliders */
+}
+.open__switch .open__switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.open__switch .arrived__box {
+  margin-left: 31px;
+}
+.open__switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1px;
+  background-color: #ccc;
+  transition: 0.4s;
+  width: 210px;
+  height: 45px;
+}
+.open__switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 47px;
+  width: 45px;
+  left: 6px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+.open__switch input:checked + .slider {
+  background-color: #12a0d6;
+  color: #12a0d6;
+}
+.open__switch input:checked + .slider:before {
+  transform: translateX(230px);
+}
+.open__switch .slider.round {
+  border-radius: 34px;
+  padding-left: 80px;
+  padding-top: 10px;
+  font-size: 26px;
+  color: white;
+}
+.open__switch .slider.round:before {
+  border-radius: 50%;
+}
+/*# sourceMappingURL=Style.css.map */
