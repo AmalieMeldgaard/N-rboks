@@ -1,79 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Verificeringkode</title>
-    <link rel="stylesheet" href="Style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap" rel="stylesheet">
-</head>
-<body>
-    
-<img class="logo" src="img/nærboks_logo.png" alt="Logo">
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img class="logo" src="img/nærboks_logo.png" alt="Logo" />
 
-<section class="verificeringssection">
-    <p class="verificeringskode">Skriv verificeringskoden du har modtaget på</p>
-    <p class="telefonnummer1">+45 212966XX</p>
-    <section>
+    <section class="verificeringssection">
+      <p class="verificeringskode">
+        Skriv verificeringskoden du har modtaget på
+      </p>
+      <p class="telefonnummer1">+45 212966XX</p>
+      <section>
         <article class="inputcontainer">
-            <input type="tel" class="input" placeholder="_" id="first-input" value="" maxlength="1">
-            <input type="tel" class="input" placeholder="_" id="second-input" value="" maxlength="1">
-            <input type="tel" class="input" placeholder="_" id="third-input" maxlength="1">
-            <input type="tel" class="input" placeholder="_" id="fourth-input" maxlength="1">
+          <input
+            type="tel"
+            class="input"
+            placeholder="_"
+            id="first-input"
+            value=""
+            maxlength="1"
+          />
+          <input
+            type="tel"
+            class="input"
+            placeholder="_"
+            id="second-input"
+            value=""
+            maxlength="1"
+          />
+          <input
+            type="tel"
+            class="input"
+            placeholder="_"
+            id="third-input"
+            maxlength="1"
+          />
+          <input
+            type="tel"
+            class="input"
+            placeholder="_"
+            id="fourth-input"
+            maxlength="1"
+          />
         </article>
+      </section>
     </section>
-</section>
 
+    <section class="tilsendverificeringskodeigen">
+      <p class="tilsendkode">Tilsend verificeringkode igen</p>
+      <img class="pil" src="img/Tilsend-verificeringskode-igen.png" alt="" />
+    </section>
 
+    <a href="home.html"><h3 class="fortsæt">Fortsæt</h3></a>
 
+    <script>
+      var container = document.getElementsByClassName("inputcontainer")[0];
+      var last = document.getElementById("fourth-input");
 
-<section class="tilsendverificeringskodeigen">
-    <p class="tilsendkode">Tilsend verificeringkode igen</p>
-    <img class="pil" src="img/Tilsend-verificeringskode-igen.png" alt="">
-</section>
-
-
-
-<h3 class="fortsæt">Fortsæt</h3>
-
-<script>
-    var container = document.getElementsByClassName("inputcontainer")[0];
-    var last = document.getElementById("fourth-input");
-
-    container.addEventListener("keyup", function(e){
+      container.addEventListener("keyup", function (e) {
         var target = e.srcElement || e.target;
         var maxlength = parseInt(target.attributes["maxlength"].value, 10);
         var mylenght = target.value.length;
 
-        if(mylenght == maxlength){
-            var next = target;
-            while(next = next.nextElementSibling){
-                if(next == null) break;
-                if(next.tagName.toLowerCase() === "input"){
-                    next.focus();
-                    break;
-                }
+        if (mylenght == maxlength) {
+          var next = target;
+          while ((next = next.nextElementSibling)) {
+            if (next == null) break;
+            if (next.tagName.toLowerCase() === "input") {
+              next.focus();
+              break;
             }
+          }
 
-            if(document.activeElement === last){
-                if(last.value != ""){
-                    
-
-                }
+          if (document.activeElement === last) {
+            if (last.value != "") {
             }
-        }else if(mylength === 0){
-            var prev = target;
-            while(prev = prev.previousElementSibling){
-                if(prev == null) break;
-                if(prev.tagName.toLowerCase === "null"){
-                    prev.focus;
-                    break;
-                }
+          }
+        } else if (mylength === 0) {
+          var prev = target;
+          while ((prev = prev.previousElementSibling)) {
+            if (prev == null) break;
+            if (prev.tagName.toLowerCase === "null") {
+              prev.focus;
+              break;
             }
+          }
         }
-    })
-</script>
-
-</body>
+      });
+    </script>
+  </body>
 </html>
