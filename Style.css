@@ -583,7 +583,7 @@ input::placeholder {
   text-decoration: none;
 }
 
-body {
+.verificering_body {
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   width: 100%;
   min-height: 100vh;
@@ -857,4 +857,3 @@ input[type=range]::-ms-fill-upper {
 input[type=range]:focus::-ms-fill-upper {
   background: #ffffff;
 }
-/*# sourceMappingURL=Style.css.map */
