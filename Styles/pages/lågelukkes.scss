@@ -2,34 +2,31 @@
   font-family: "Exo 2", sans-serif;
 }
 
-video {
-  margin-top: 30px;
-}
-
 .lågelukkes {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   height: 100vh;
+  margin: 0;
 }
 
-.open__switch {
+.swipe_luk {
   position: relative;
   display: inline-block;
-  width: 60px;
+  width: 290px;
   height: 34px;
-  margin-left: 35px;
 
-  .open__switch input {
+  .swipe_luk input {
     opacity: 0;
     width: 0;
     height: 0;
   }
-  .arrived__box {
+  .check {
     margin-left: 31px;
+    opacity: 0;
   }
-  .slider {
+  .swipe {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -44,19 +41,19 @@ video {
     height: 45px;
   }
 
-  .slider:before {
+  .swipe:before {
     position: absolute;
     content: "";
-    height: 47px;
-    width: 45px;
+    height: 40px;
+    width: 40px;
     left: 6px;
-    bottom: 4px;
+    bottom: 2px;
     background-color: white;
     -webkit-transition: 0.4s;
     transition: 0.4s;
   }
 
-  input:checked + .slider {
+  input:checked + .swipe {
     background-color: #12a0d6;
     color: #12a0d6;
   }
@@ -66,22 +63,26 @@ video {
   }
   */
 
-  input:checked + .slider:before {
+  input:checked + .swipe:before {
     //-webkit-transform: translateX(26px);
     //-ms-transform: translateX(26px);
     transform: translateX(230px);
   }
 
   /* Rounded sliders */
-  .slider.round {
+  .swipe.knappen {
     border-radius: 34px;
     padding-left: 80px;
-    padding-top: 10px;
     font-size: 26px;
     color: white;
+    font-family: 'Exo 2';
+    font-size: 1.3rem;
+    line-height: 40px;
+    top: -50px;
+    
   }
 
-  .slider.round:before {
+  .swipe.knappen:before {
     border-radius: 50%;
   }
 }
