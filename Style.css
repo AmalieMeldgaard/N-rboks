@@ -1,4 +1,7 @@
 @charset "UTF-8";
+.home__body {
+  font-family: "Exo 2", sans-serif;
+}
 .home__body .home__menu {
   width: 30px;
 }
@@ -944,3 +947,4 @@ input[type=range]:focus::-ms-fill-upper {
 .swipe_luk .swipe.knappen:before {
   border-radius: 50%;
 }
+/*# sourceMappingURL=Style.css.map */

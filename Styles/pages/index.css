@@ -1,4 +1,7 @@
 @charset "UTF-8";
+.home__body {
+  font-family: "Exo 2", sans-serif;
+}
 .home__body .home__menu {
   width: 30px;
 }
